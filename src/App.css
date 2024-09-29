@@ -89,13 +89,20 @@ main {
 
 .container-brand {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 1rem;
-  gap: 10px;
+  gap: 20px;
 }
 
-.card-img-top {
+.home-brand-img {
   height: 90%;
+}
+
+.northface {
+  max-width: 520px;
+}
+
+.home-card {
+  min-width: 10rem;
 }
 
 .button-category {

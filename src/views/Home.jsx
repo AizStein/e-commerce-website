@@ -50,28 +50,44 @@ const Home = () => {
         <h3>Brands</h3>
         <div className="brand">
           <div className="container-brand">
-            <div className="card" style={{ minWidth: "10rem" }}>
-              <img src={polo} className="card-img-top" alt="Polo Shirt" />
+            <div className="card home-card">
+              <img
+                src={polo}
+                className="card-img-top home-brand-img"
+                alt="Polo Shirt"
+              />
               <div className="card-body">
                 <p className="card-text">Ralph Lauren</p>
               </div>
             </div>
-            <div className="card" style={{ minWidth: "10rem" }}>
-              <img src={nike} className="card-img-top" alt="Polo Shirt" />
+            <div className="card home-card">
+              <img
+                src={nike}
+                className="card-img-top home-brand-img"
+                alt="Polo Shirt"
+              />
               <div className="card-body">
                 <p className="card-text">Nike</p>
               </div>
             </div>
           </div>
           <div className="container-brand">
-            <div className="card" style={{ minWidth: "10rem" }}>
-              <img src={northface} className="card-img-top" alt="Polo Shirt" />
+            <div className="card home-card">
+              <img
+                src={northface}
+                className="card-img-top home-brand-img northface"
+                alt="Polo Shirt"
+              />
               <div className="card-body">
                 <p className="card-text">The North Face</p>
               </div>
             </div>
-            <div className="card" style={{ minWidth: "10rem" }}>
-              <img src={tommy} className="card-img-top" alt="Polo Shirt" />
+            <div className="card home-card">
+              <img
+                src={tommy}
+                className="card-img-top home-brand-img"
+                alt="Polo Shirt"
+              />
               <div className="card-body">
                 <p className="card-text">Tommy Hilfiger</p>
               </div>
