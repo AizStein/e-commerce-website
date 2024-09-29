@@ -46,10 +46,12 @@
   justify-content: space-around;
   padding: 1em;
   font-size: 11px;
+  color: black;
 }
 
 .btn-quantity button {
   width: 40px;
+  color: black;
 }
 
 .sub-total {
@@ -98,6 +100,7 @@
     border-radius: 20px;
     border: none;
     width: 250px;
+    color: black;
 
     &:hover {
       background-color: rgb(105, 110, 95);
@@ -108,6 +111,7 @@
 
 .delete {
   width: 90px;
+  color: black;
 }
 
 strong {
