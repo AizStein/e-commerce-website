@@ -9,7 +9,7 @@ export default function reducer(state, action) {
     case "SET_GENDER":
       return { ...state, gender: action.payload };
 
-    case "SET_CATEGORY": // New case for setting category
+    case "SET_CATEGORY":
       return { ...state, category: action.payload };
 
     case "FILTER_PRODUCTS":
@@ -36,54 +36,74 @@ export default function reducer(state, action) {
       return { ...state, filteredProducts };
 
     case "CLEAR_CART":
+      localStorage.removeItem("cart");
       return { ...state, cart: [] };
 
     case "ADD_TO_CART":
       const existingProduct = state.cart.find(
         (item) => item.id === action.product.id
       );
+      let updatedCart;
+
       if (existingProduct) {
-        return {
-          ...state,
-          cart: state.cart.map((item) =>
-            item.id === action.product.id
-              ? { ...item, quantity: item.quantity + 1 }
-              : item
-          ),
-        };
+        updatedCart = state.cart.map((item) =>
+          item.id === action.product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
       } else {
-        return {
-          ...state,
-          cart: [...state.cart, { ...action.product, quantity: 1 }],
-        };
+        updatedCart = [...state.cart, { ...action.product, quantity: 1 }];
       }
 
-    case "REMOVE_ITEM":
+      // Save the updated cart to localStorage
+      localStorage.setItem("cart", JSON.stringify(updatedCart));
+
       return {
         ...state,
-        cart: state.cart.filter((_, index) => index !== action.index),
+        cart: updatedCart,
+      };
+
+    case "REMOVE_ITEM":
+      const updatedCartRemove = state.cart.filter(
+        (_, index) => index !== action.index
+      );
+
+      // Save the updated cart to localStorage
+      localStorage.setItem("cart", JSON.stringify(updatedCartRemove));
+
+      return {
+        ...state,
+        cart: updatedCartRemove,
       };
 
     case "INCREASE_QUANTITY":
+      const updatedCartIncrease = state.cart.map((item, index) =>
+        index === action.index ? { ...item, quantity: item.quantity + 1 } : item
+      );
+
+      // Save the updated cart to localStorage
+      localStorage.setItem("cart", JSON.stringify(updatedCartIncrease));
+
       return {
         ...state,
-        cart: state.cart.map((item, index) =>
-          index === action.index
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        ),
+        cart: updatedCartIncrease,
       };
 
     case "DECREASE_QUANTITY":
+      const updatedCartDecrease = state.cart
+        .map((item, index) =>
+          index === action.index
+            ? { ...item, quantity: item.quantity - 1 }
+            : item
+        )
+        .filter((item) => item.quantity > 0); // Filter out items with quantity 0
+
+      // Save to localStorage
+      localStorage.setItem("cart", JSON.stringify(updatedCartDecrease));
+
       return {
         ...state,
-        cart: state.cart
-          .map((item, index) =>
-            index === action.index
-              ? { ...item, quantity: item.quantity - 1 }
-              : item
-          )
-          .filter((item) => item.quantity > 0),
+        cart: updatedCartDecrease,
       };
 
     default:

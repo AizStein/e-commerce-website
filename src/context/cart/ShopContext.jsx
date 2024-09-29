@@ -8,7 +8,7 @@ export default function ShopProvider({ children }) {
     products: [],
     filteredProducts: [],
     gender: "",
-    cart: [],
+    cart: JSON.parse(localStorage.getItem("cart")) || [],
     category: "",
   };
 
