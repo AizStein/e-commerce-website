@@ -94,6 +94,10 @@ main {
   gap: 10px;
 }
 
+.card-img-top {
+  height: 90%;
+}
+
 .button-category {
   padding: 1em;
   margin-top: 3em;
@@ -120,7 +124,6 @@ main {
 
 .card-box {
   background-color: rgb(240, 240, 240);
-  display: flex;
   width: 150px;
   height: 270px;
   margin-bottom: 10px;
@@ -138,6 +141,7 @@ main {
 .card-body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-title {
