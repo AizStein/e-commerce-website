@@ -1,0 +1,459 @@
+[
+    {
+        "category": "t-Shirts",
+        "items": [
+            {
+                "id": 1,
+                "brand": "Nike",
+                "description": "Classic cotton t-shirt with a logo print.",
+                "price": 25.00,
+                "gender": "Men",
+                "image": "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/yql7ozajhdesi8vklgb3/M+NSW+TEE+ICON+FUTURA.png"
+            },
+            {
+                "id": 2,
+                "brand": "Adidas",
+                "description": "Soft and breathable t-shirt with a minimalist design.",
+                "price": 20.00,
+                "gender": "Men",
+                "image": "https://media.littlewoods.com/i/littlewoods/VP6IW_SQ1_0000000013_WHITE_MDf/adidas-originals-mens-essential-trefoil-t-shirt-white.jpg?$180x240_retinamobilex2$"
+            },
+            {
+                "id": 3,
+                "brand": "Under Armour",
+                "description": "Moisture-wicking t-shirt for active wear.",
+                "price": 30.00,
+                "gender": "Men",
+                "image": "https://cdn.idealo.com/folder/Product/4981/5/4981582/s1_produktbild_gross_9/under-armour-herren-t-shirt-ua-tech-kurzaermlig.jpg"
+            },
+            {
+                "id": 4,
+                "brand": "H&M",
+                "description": "Graphic tee with vibrant colors and playful designs.",
+                "price": 15.00,
+                "gender": "Women",
+                "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F17%2F33%2F173355d1668bf1b4ba5c6994ec0aa0d17df711d6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+            },
+            {
+                "id": 5,
+                "brand": "Forever 21",
+                "description": "Trendy t-shirt with a floral print.",
+                "price": 18.00,
+                "gender": "Women",
+                "image": "https://i.pinimg.com/736x/f6/11/14/f61114f192481e984eaf10171bbf030e.jpg"
+            },
+            {
+                "id": 6,
+                "brand": "Gap",
+                "description": "Comfortable cotton tee with fun patterns.",
+                "price": 22.00,
+                "gender": "Women",
+                "image": "https://i.pinimg.com/736x/65/7c/10/657c10d4be7edd149799dced2e39c00b.jpg"
+            },
+            {
+                "id": 7,
+                "brand": "H&M",
+                "description": "Comfortable cotton t-shirt with a classic design.",
+                "price": 20.00,
+                "gender": "Boys",
+                "image": "https://i.ebayimg.com/images/g/~OoAAOSwjL5ZJaUz/s-l1200.jpg"
+            },
+            {
+                "id": 8,
+                "brand": "Old Navy",
+                "description": "Playful graphic tee with bold colors.",
+                "price": 18.00,
+                "gender": "Boys",
+                "image": "https://oldnavy.gap.com/webcontent/0017/098/305/cn17098305.jpg"
+            },
+            {
+                "id": 9,
+                "brand": "Mini Boden",
+                "description": "Soft tee with unique prints and patterns.",
+                "price": 25.00,
+                "gender": "Boys",
+                "image": "https://www.bodenimages.com/productimages/r1aproductlarge/23bspr_b2308_blu_w01.jpg"
+            },
+            {
+                "id": 10,
+                "brand": "Ralph Lauren",
+                "description": "Elegant polo t-shirt with a classic fit.",
+                "price": 45.00,
+                "gender": "Girls",
+                "image": "https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-327727_alternate10?$plpDeskRFAlt$"
+            },
+            {
+                "id": 11,
+                "brand": "Zara",
+                "description": "Fashionable t-shirt with a trendy design.",
+                "price": 35.00,
+                "gender": "Girls",
+                "image": "https://static.zara.net/assets/public/27ba/abb8/3a4e41d989ce/6fcfb9c7b827/03037509250-200-p/03037509250-200-p.jpg?ts=1716284450566&w=412"
+            },
+            {
+                "id": 12,
+                "brand": "Gap",
+                "description": "Comfortable and cute graphic tee.",
+                "price": 28.00,
+                "gender": "Girls",
+                "image": "https://www.gap.com/webcontent/0055/599/641/cn55599641.jpg?q=h&w=445"
+            }
+        ]
+    },
+    {
+        "category": "pants",
+        "items": [
+            {
+                "id": 13,
+                "brand": "Levi's",
+                "description": "Slim fit jeans with a classic five-pocket design.",
+                "price": 50.00,
+                "gender": "Men",
+                "image": "https://jeanstore.co.uk/cdn/shop/products/levi-s-511-strong-slim-fit-mens-jeans-rock-cod-w26-l30-04511178626s-5415212127721-levi-s-jeans-levis-511-strong-slim-fit-mens-jeans-rock-cod-jeans-and-street-fashion-from-jeanstore-28_7e0f6899-5525-4499-8051-356b4d3a5e23_740x.jpg?v=1628351014"
+            },
+            {
+                "id": 14,
+                "brand": "Wrangler",
+                "description": "Durable cargo pants with multiple pockets.",
+                "price": 55.00,
+                "gender": "Men",
+                "image": "https://images.wrangler.com/is/image/Wrangler/70MR0GR-ALT9?$KDP-XLARGE$"
+            },
+            {
+                "id": 15,
+                "brand": "Dockers",
+                "description": "Comfortable chinos with a tailored fit.",
+                "price": 45.00,
+                "gender": "Men",
+                "image": "https://m.media-amazon.com/images/I/71PlmHChpBL._AC_UY1000_.jpg"
+            },
+            {
+                "id": 16,
+                "brand": "Gap",
+                "description": "High-waisted trousers with a comfortable fit.",
+                "price": 45.00,
+                "gender": "Women",
+                "image": "https://www.gap.com/webcontent/0054/484/409/cn54484409.jpg"
+            },
+            {
+                "id": 17,
+                "brand": "Banana Republic",
+                "description": "Chic wide-leg trousers perfect for office wear.",
+                "price": 65.00,
+                "gender": "Women",
+                "image": "https://bananarepublic.gap.com/webcontent/0052/493/458/cn52493458.jpg"
+            },
+            {
+                "id": 18,
+                "brand": "Old Navy",
+                "description": "Casual and stylish leggings.",
+                "price": 30.00,
+                "gender": "Women",
+                "image": "https://oldnavy.gap.com/webcontent/0050/219/329/cn50219329.jpg"
+            },
+            {
+                "id": 19,
+                "brand": "Levi's",
+                "description": "Durable jeans with a classic fit.",
+                "price": 40.00,
+                "gender": "Boys",
+                "image": "https://lsco.scene7.com/is/image/lsco/372520122-dynamic1-pdp?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=2000&hei=1840"
+            },
+            {
+                "id": 20,
+                "brand": "Gap",
+                "description": "Comfortable joggers with an elastic waistband.",
+                "price": 35.00,
+                "gender": "Boys",
+                "image": "https://www.gap.com/webcontent/0055/969/170/cn55969170.jpg"
+            },
+            {
+                "id": 21,
+                "brand": "Old Navy",
+                "description": "Cool cargo pants with multiple pockets.",
+                "price": 32.00,
+                "gender": "Boys",
+                "image": "https://oldnavy.gap.com/webcontent/0050/554/808/cn50554808.jpg"
+            },
+            {
+                "id": 22,
+                "brand": "H&M",
+                "description": "Cute denim skirt with a ruffled hem.",
+                "price": 40.00,
+                "gender": "Girls",
+                "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/29191672/2024/4/26/0d637364-5e33-49ff-ae7e-baf55f6690621714110654494Denimskirt1.jpg"
+            },
+            {
+                "id": 23,
+                "brand": "Mini Boden",
+                "description": "Comfortable leggings with fun patterns.",
+                "price": 25.00,
+                "gender": "Girls",
+                "image": "https://www.bodenimages.com/productimages/r1aproductlarge/21gaut_g2484_bbl_d06.jpg"
+            },
+            {
+                "id": 24,
+                "brand": "Zara",
+                "description": "Stylish plaid pants with a chic design.",
+                "price": 50.00,
+                "gender": "Girls",
+                "image": "https://static.zara.net/assets/public/d631/ee9c/68e14e96b078/6e796eca6e4f/00327601802-100-p/00327601802-100-p.jpg?ts=1708691610557&w=824"
+            }
+        ]
+    },
+    {
+        "category": "dresses",
+        "items": [
+            {
+                "id": 25,
+                "brand": "Zara",
+                "description": "Elegant floral dress with a fitted waist and A-line skirt.",
+                "price": 70.00,
+                "gender": "Women",
+                "image": "https://static.zara.net/assets/public/f493/fadf/f8574d9e8000/27f9c2649d19/04786082514-p/04786082514-p.jpg?ts=1713783035101&w=824"
+            },
+            {
+                "id": 26,
+                "brand": "H&M",
+                "description": "Casual sundress with a playful print.",
+                "price": 35.00,
+                "gender": "Women",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrYvo_TM_zABcc1Qki3GTf0NBYnD66iD8Aqw&s"
+            },
+            {
+                "id": 27,
+                "brand": "Forever 21",
+                "description": "Trendy dress with a chic design.",
+                "price": 45.00,
+                "gender": "Women",
+                "image": "https://www.forever21.com/dw/image/v2/BFKH_PRD/on/demandware.static/-/Sites-f21-master-catalog/default/dwe3b07314/1_front_750/00464182-04.jpg?sw=1000&sh=1500"
+            },
+            {
+                "id": 28,
+                "brand": "Ralph Lauren",
+                "description": "Classic polo dress with a timeless design.",
+                "price": 90.00,
+                "gender": "Girls",
+                "image": "https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-1265433_lifestyle?$plpDeskRF$"
+            },
+            {
+                "id": 29,
+                "brand": "OshKosh B'gosh",
+                "description": "Adorable denim dress with ruffled details.",
+                "price": 40.00,
+                "gender": "Girls",
+                "image": "https://target.scene7.com/is/image/Target/GUEST_da2be056-e0e3-4ab3-9050-96c23e4294e8?wid=488&hei=488&fmt=pjpeg"
+            },
+            {
+                "id": 30,
+                "brand": "Gap",
+                "description": "Cute summer dress with colorful prints.",
+                "price": 35.00,
+                "gender": "Girls",
+                "image": "https://www.childishthingsconsign.com/cdn/shop/files/1a76ddbdf9f5c64e440ff3bad7ad5621_400x.jpg?v=1723745974"
+            }
+        ]
+    },
+    {
+        "category": "polo shirts",
+        "items": [
+            {
+                "id": 31,
+                "brand": "Polo Ralph Lauren",
+                "description": "Iconic polo shirt with a relaxed fit and embroidered logo.",
+                "price": 80.00,
+                "gender": "Men",
+                "image": "https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-1266705_alternate10?$plpDeskRF$"
+            },
+            {
+                "id": 32,
+                "brand": "Tommy Hilfiger",
+                "description": "Breathable polo with a slim fit and contrast collar.",
+                "price": 60.00,
+                "gender": "Men",
+                "image": "https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW33192_0GY_main?$b2c_uplp_listing_2560$"
+            },
+            {
+                "id": 33,
+                "brand": "Lacoste",
+                "description": "Classic pique polo shirt with a logo crocodile emblem.",
+                "price": 90.00,
+                "gender": "Men",
+                "image": "https://www.worldshop.eu/medias/img/8947739230238_w1500_z_1097530819/lacoste-caiman-men-s-polo-shirt-short-sleeve-dark-blue.jpeg"
+            },
+            {
+                "id": 34,
+                "brand": "Tommy Hilfiger",
+                "description": "Chic polo shirt with a trendy design.",
+                "price": 55.00,
+                "gender": "Women",
+                "image": "https://tw.tommy.com/dw/image/v2/BGLQ_PRD/on/demandware.static/-/Sites-th-master-catalog/default/dwe3d5d3ad/WW42130/C11_01_AAAWW42130DW5_MO-ST-F1.jpg?sw=548&sh=730&q=90"
+            },
+            {
+                "id": 35,
+                "brand": "J.Crew",
+                "description": "Soft polo with a comfortable fit and classic design.",
+                "price": 50.00,
+                "gender": "Women",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8inmrweaoHawEmtICKfkqLwHuDYlaYi9sw&s"
+            },
+            {
+                "id": 36,
+                "brand": "Banana Republic",
+                "description": "Elegant polo shirt with a relaxed fit.",
+                "price": 60.00,
+                "gender": "Women",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1fVv76lRyN105TLqSvAJbJSeRUkCzaY0H-g&s"
+            },
+            {
+                "id": 37,
+                "brand": "Fruit of the Loom",
+                "description": "Basic polo shirt with a comfortable fit.",
+                "price": 25.00,
+                "gender": "Boys",
+                "image": "https://www.wemaonline.de/media/3e/be/71/1649356189/polo-kids-front-3417.jpg.jpg"
+            },
+            {
+                "id": 38,
+                "brand": "Gap",
+                "description": "Stylish polo with a fun print.",
+                "price": 30.00,
+                "gender": "Boys",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Uog7Hut_zhwB86z5g9xeh35tLFWzhWjiJQ&s"
+            },
+            {
+                "id": 39,
+                "brand": "Old Navy",
+                "description": "Comfortable polo with a soft feel.",
+                "price": 28.00,
+                "gender": "Boys",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScAY3u1ajmGXp4Vucm31njnjtvSQKNyACEQg&s"
+            },
+            {
+                "id": 40,
+                "brand": "Kipling",
+                "description": "Sporty polo shirt with a breathable fabric.",
+                "price": 30.00,
+                "gender": "Girls",
+                "image": "https://slimages.macysassets.com/is/image/MCY/products/2/optimized/24924542_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1"
+            },
+            {
+                "id": 41,
+                "brand": "Ralph Lauren",
+                "description": "Classic polo shirt with a cute design.",
+                "price": 45.00,
+                "gender": "Girls",
+                "image": "https://cdn.childrensalon.com/media/catalog/product/cache/0/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/r/a/ralph-lauren-teen-girls-white-cotton-pique-polo-shirt-564034-e4d877042cd7852a4df8e743bcb3dd3e3cdb8d8e.jpg"
+            },
+            {
+                "id": 42,
+                "brand": "Zara",
+                "description": "Fashionable polo shirt with a trendy look.",
+                "price": 40.00,
+                "gender": "Girls",
+                "image": "https://static.zara.net/assets/public/5a55/e1f3/1f7f494f9829/3ec1035c7da8/03284601304-p/03284601304-p.jpg?ts=1710264471313&w=824"
+            }
+        ]
+    },
+    {
+        "category": "jackets",
+        "items": [
+            {
+                "id": 43,
+                "brand": "North Face",
+                "description": "Water-resistant windbreaker with adjustable hood.",
+                "price": 120.00,
+                "gender": "Men",
+                "image": "https://cdn.idealo.com/folder/Product/203499/2/203499253/s1_produktbild_max/the-north-face-lhotse-hooded-down-jacket-men.jpg"
+            },
+            {
+                "id": 44,
+                "brand": "Patagonia",
+                "description": "Insulated puffer jacket with a lightweight design.",
+                "price": 150.00,
+                "gender": "Men",
+                "image": "https://www.bfgcdn.com/1500_1500_90/005-2895-0211/patagonia-classic-retro-x-jacket-fleecejacke.jpg"
+            },
+            {
+                "id": 45,
+                "brand": "Columbia",
+                "description": "Durable softshell jacket with windproof features.",
+                "price": 130.00,
+                "gender": "Men",
+                "image": "https://m.media-amazon.com/images/I/71M7mEwpmLL._AC_UY580_.jpg"
+            },
+            {
+                "id": 46,
+                "brand": "Barbour",
+                "description": "Stylish waxed jacket with classic design.",
+                "price": 180.00,
+                "gender": "Women",
+                "image": "https://www.barbour.com/media/catalog/product/cache/a6a41b11f44356383d9979e3b517c3aa/L/W/LWX0003BK51_AW23MAIN_front.jpg"
+            },
+            {
+                "id": 47,
+                "brand": "Marmot",
+                "description": "Lightweight and warm fleece jacket.",
+                "price": 100.00,
+                "gender": "Women",
+                "image": "https://img01.ztat.net/article/spp-media-p1/5fac29070b734cf7a5604101ece0b2cb/14149d2af626427d8aaf9bf17ed5c03a.jpg?imwidth=1800"
+            },
+            {
+                "id": 48,
+                "brand": "The North Face",
+                "description": "Waterproof jacket with adjustable cuffs.",
+                "price": 110.00,
+                "gender": "Women",
+                "image": "https://xcdn.next.co.uk/COMMON/Items/Default/Default/ItemImages/AltItemShot/315x472/T24875s.jpg"
+            },
+            {
+                "id": 49,
+                "brand": "Abercrombie & Fitch",
+                "description": "Cozy quilted jacket with a casual look.",
+                "price": 85.00,
+                "gender": "Boys",
+                "image": "https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/SearchAlt/224x336/990357.jpg"
+            },
+            {
+                "id": 50,
+                "brand": "Gap",
+                "description": "Classic denim jacket with a versatile style.",
+                "price": 65.00,
+                "gender": "Boys",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBnEeJd6bIotd_VLEJFXUuRXbPMVnYcbkRQ&s"
+            },
+            {
+                "id": 51,
+                "brand": "Old Navy",
+                "description": "Warm puffer jacket with a modern design.",
+                "price": 90.00,
+                "gender": "Boys",
+                "image": "https://oldnavy.gap.com/webcontent/0054/185/425/cn54185425.jpg"
+            },
+            {
+                "id": 52,
+                "brand": "Columbia",
+                "description": "Insulated jacket with a warm fleece lining.",
+                "price": 80.00,
+                "gender": "Girls",
+                "image": "https://columbia.scene7.com/is/image/ColumbiaSportswear2/2050351_607_f_pu?$x1_grid$&v=1724853763"
+            },
+            {
+                "id": 53,
+                "brand": "Gap",
+                "description": "Cute and cozy hoodie with a stylish design.",
+                "price": 70.00,
+                "gender": "Girls",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ4xOh8hqVRsuEzh9K58BJ6LMycsP6st4b7w&s"
+            },
+            {
+                "id": 54,
+                "brand": "H&M",
+                "description": "Fashionable parka with a trendy look.",
+                "price": 75.00,
+                "gender": "Girls",
+                "image": "https://image.hm.com/assets/hm/56/1c/561c563767cffb895daaa0c7dc7560bc7790b602.jpg?imwidth=2160"
+            }
+        ]
+    }
+]

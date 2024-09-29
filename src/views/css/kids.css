@@ -1,0 +1,15 @@
+.kids-page {
+  background: url(/src/assets/cutie.jpg);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .kids-page {
+    height: 60vh;
+    background-position: 0 20%;
+  }
+}

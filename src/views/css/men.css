@@ -1,0 +1,20 @@
+.men-page {
+  background: url(/src/assets/men.avif);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .men-page {
+    height: 55vh;
+    background-position: 0 30%;
+  }
+
+  .button-category {
+    display: flex;
+    justify-content: center;
+  }
+}

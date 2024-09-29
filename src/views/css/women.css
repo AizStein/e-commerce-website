@@ -1,0 +1,43 @@
+.women-page {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.women-page h2 {
+  z-index: 1;
+}
+.women-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/src/assets/women.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 2em 0;
+}
+
+.custom-carousel {
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .women-page {
+    height: 60vh;
+    background-position: 0 30%;
+  }
+}
