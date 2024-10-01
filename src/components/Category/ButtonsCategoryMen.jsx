@@ -6,7 +6,6 @@ const ButtonsCategoryMen = () => {
 
   return (
     <section className="categories">
-      <h3>Top Categories</h3>
       <div className="category-btn">
         <button onClick={() => navHandler("men", "t-shirts")}>T-Shirts</button>
         <button onClick={() => navHandler("men", "pants")}>Pants</button>

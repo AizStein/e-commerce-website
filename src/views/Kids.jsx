@@ -15,10 +15,9 @@ const Kids = () => {
           <h2>Playful Styles for Little Smiles!</h2>
         </div>
       </section>
-      <div className="navigation-button">
-        <Button />
-      </div>
+      <Button />
       <div className="button-category">
+        <h3>Top Categories</h3>
         <ButtonsCategoryKids />
       </div>
       <h4 className="slogan">Dress Up for Every Childhood Adventure!</h4>

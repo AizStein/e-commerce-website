@@ -15,10 +15,9 @@ const Men = () => {
           <h2>Discover Fashion That Celebrates You! </h2>
         </div>
       </section>
-      <div className="navigation-button">
-        <Button />
-      </div>
+      <Button />
       <div className="button-category">
+        <h3>Top Categories</h3>
         <ButtonsCategoryMen />
       </div>
       <h4 className="slogan">Redefine Classic, Embrace Modern.</h4>

@@ -36,6 +36,16 @@ export default function reducer(state, action) {
       return { ...state, filteredProducts };
 
     case "SORT_BY_PRICE":
+      const allProducts = state.filteredProducts.flatMap(
+        (product) => product.items
+      );
+
+      // Sort all products by price
+      const sortedProducts = allProducts.sort((a, b) => {
+        return action.payload === "asc" ? a.price - b.price : b.price - a.price;
+      });
+
+      return { ...state, filteredProducts: [{ items: sortedProducts }] };
 
     case "CLEAR_CART":
       localStorage.removeItem("cart");

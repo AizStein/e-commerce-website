@@ -8,10 +8,10 @@ const MenProducts = () => {
   return (
     <>
       <img className="cart-img" src={cart} alt="cart" />
+      <Button />
       <div className="button-category">
         <ButtonsCategoryMen />
       </div>
-      <Button />
       <Product />
     </>
   );

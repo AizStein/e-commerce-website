@@ -14,10 +14,9 @@ const Women = () => {
           <h2>Empower Your Style: Chic, Confident, You</h2>
         </div>
       </section>
-      <div className="navigation-button">
-        <Button />
-      </div>
+      <Button />
       <div className="button-category">
+        <h3>Top Categories</h3>
         <ButtonCategoryWomen />
       </div>
       <h4 className="slogan">Uncomplicate Your Wardrobe, Amplify Your Look.</h4>

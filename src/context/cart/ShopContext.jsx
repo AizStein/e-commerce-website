@@ -7,7 +7,7 @@ export default function ShopProvider({ children }) {
   const initialState = {
     products: [],
     filteredProducts: [],
-    gender: "",
+    gender: "all",
     cart: JSON.parse(localStorage.getItem("cart")) || [],
     category: "",
   };

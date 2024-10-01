@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { useFetch } from "../../hooks/usefetch";
 import { ShopContext } from "../../context/cart/ShopContext";
 import useAddItem from "../../hooks/useAddItem";
+import Sort from "../button-links/Sort";
 
 const Product = () => {
   const { data } = useFetch("data.json");
@@ -17,6 +18,7 @@ const Product = () => {
 
   return (
     <>
+      <Sort />
       <div className="products">
         {state.filteredProducts.map((product) =>
           product.items.map((item) => (

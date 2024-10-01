@@ -1,15 +1,15 @@
 .nav-btn {
   display: flex;
   justify-content: space-between;
-  padding: 1.5em;
-  margin-top: 2em;
+  margin-top: 0.2em;
+  margin: 0 1em;
 
   button {
     color: black;
     background-color: transparent;
     border: none;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-shadow: 1px 1px 1px rgba(70, 68, 68, 0.432);
 
     &:hover {
@@ -18,8 +18,23 @@
   }
 }
 
+.sort {
+  background-color: rgba(192, 189, 189, 0.624);
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3em;
+  border-radius: 5px;
+}
+
+#sort {
+  font-size: 0.5em;
+  color: black;
+  margin: 1em;
+  padding: 0.5em;
+}
+
 @media (min-width: 768px) {
   .nav-btn {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }

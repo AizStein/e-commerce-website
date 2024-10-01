@@ -9,8 +9,7 @@ const navigationHandler = () => {
 
   return (gender, category) => {
     handleGenderChange(gender); // gender filter
-    handleCategory(category)
-    console.log(category)
+    handleCategory(category);
 
     switch (gender) {
       case "women":
