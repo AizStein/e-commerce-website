@@ -12,7 +12,7 @@ const MenProducts = () => {
         <ButtonsCategoryMen />
       </div>
       <Button />
-      <Product />;
+      <Product />
     </>
   );
 };
