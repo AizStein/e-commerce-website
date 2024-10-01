@@ -35,6 +35,8 @@ export default function reducer(state, action) {
       });
       return { ...state, filteredProducts };
 
+    case "SORT_BY_PRICE":
+
     case "CLEAR_CART":
       localStorage.removeItem("cart");
       return { ...state, cart: [] };

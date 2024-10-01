@@ -16,36 +16,32 @@ const Product = () => {
   }, [data]);
 
   return (
-    <div>
+    <>
       <div className="products">
-        {state.filteredProducts.map((category, categoryIndex) => (
-          <div key={categoryIndex}>
-            <div className="category-wrapper">
-              {category.items.map((item) => (
-                <div className="card d-flex card-box" key={item.id}>
-                  <img
-                    src={item.image}
-                    className="card-img-top item-image"
-                    alt={item.description}
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title">{item.brand}</h6>
-                    <p className="card-text  card-desc">{item.description}</p>
-                    <p className="card-text card-price">Price: ${item.price}</p>
-                    <button
-                      className="btn-item"
-                      onClick={() => addToCartHandler(item)}
-                    >
-                      Add to cart
-                    </button>
-                  </div>
-                </div>
-              ))}
+        {state.filteredProducts.map((product) =>
+          product.items.map((item) => (
+            <div className="card d-flex card-box" key={item.id}>
+              <img
+                src={item.image}
+                className="card-img-top item-image"
+                alt={item.description}
+              />
+              <div className="card-body">
+                <h6 className="card-title">{item.brand}</h6>
+                <p className="card-text card-desc">{item.description}</p>
+                <p className="card-text card-price">Price: ${item.price}</p>
+                <button
+                  className="btn-item"
+                  onClick={() => addToCartHandler(item)}
+                >
+                  Add to cart
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))
+        )}
       </div>
-    </div>
+    </>
   );
 };
 
