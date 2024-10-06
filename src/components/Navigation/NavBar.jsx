@@ -18,7 +18,7 @@ const NavBar = () => {
         </div>
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li>
-            <NavLink to="/">Fahion</NavLink>
+            <NavLink to="/">Fashion</NavLink>
           </li>
           <li>
             <NavLink to="women">Women</NavLink>
