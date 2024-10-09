@@ -14,6 +14,12 @@ This is a work-in-progress e-commerce web application where users can browse pro
 **Ongoing:** Improving responsiveness, product filtering, and sorting features.
 
 
+### Screenshot
+
+![project screenshot](/screenshots/screenshot1.png)
+![project screenshot](/screenshots/screenshot2.png)
+
+
 ### Usage
 
 #### Product Page 
