@@ -64,6 +64,11 @@ This project is still under active development. Here are some of the planned fea
 - **User Accounts:** Managing user profiles and authentication.
 
 
+####Acknowledgments
+
+The images used in this project belong to their respective owners. If you recognize any images that belong to you or have specific credits for the images used, please contact me, and I will be happy to add proper attribution.
+
+
 
 ## Contact
 
