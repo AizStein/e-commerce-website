@@ -16,9 +16,12 @@ This is a work-in-progress e-commerce web application where users can browse pro
 
 ### Screenshot
 
-![project screenshot](/screenshots/screenshot1.png)
-![project screenshot](/screenshots/screenshot2.png)
+Here are some screenshots of the current progress of the e-commerce website:
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./screenshots/screenshot1.png" alt="E-commerce Screenshot 1" style="width: 45%;">
+  <img src="./screenshots/screenshot2.png" alt="E-commerce Screenshot 2" style="width: 45%;">
+</div>
 
 ### Usage
 
