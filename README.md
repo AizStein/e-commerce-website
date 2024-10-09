@@ -22,6 +22,7 @@ This is a work-in-progress e-commerce web application where users can browse pro
 - Add products to cart and manage item quantities.
 - Real-time cart updates with total price and quantity.
 - Persistent cart using localStorage.
+  
 **Ongoing:** Improving responsiveness, product filtering, and sorting features.
 
 
