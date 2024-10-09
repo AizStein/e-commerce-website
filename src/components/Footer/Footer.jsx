@@ -4,6 +4,9 @@ import { FaLinkedin } from "react-icons/fa6";
 import "./Footer.css";
 
 const Footer = () => {
+  const subscription = (e) => {
+    e.preventDefault();
+  };
   return (
     <footer>
       <div className="social-media">
@@ -28,7 +31,7 @@ const Footer = () => {
         </ul>
         <div className="footer-newsletter">
           <h4>Stay Connected</h4>
-          <form>
+          <form onSubmit={subscription}>
             <input type="email" placeholder="Enter your email" />
             <button type="submit">Subscribe</button>
           </form>
