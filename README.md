@@ -33,7 +33,7 @@ Here are some screenshots of the current progress of the e-commerce website:
   <img src="./screenshots/screenshot2.png" alt="E-commerce Screenshot 2" style="width: 45%;">
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#My E-Commerce Project">back to top</a>)</p>
 
 ### Usage
 
@@ -71,4 +71,4 @@ If you have any questions or suggestions, feel free to reach out!
 - **Name**: Aiza
 - **LinkedIn**: https://www.linkedin.com/in/aiza-s-400319313
 
- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#My E-Commerce Project">back to top</a>)</p>
