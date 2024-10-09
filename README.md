@@ -23,6 +23,8 @@ Here are some screenshots of the current progress of the e-commerce website:
   <img src="./screenshots/screenshot2.png" alt="E-commerce Screenshot 2" style="width: 45%;">
 </div>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Usage
 
 #### Product Page 
@@ -46,3 +48,12 @@ This project is still under active development. Here are some of the planned fea
 **Order History:** Implementing a feature where users can view their past purchases.
 **Improved UI/UX:** Enhancing the user interface and making it more responsive.
 **Checkout:** Building a full checkout experience with payment integration.
+
+
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out!
+
+- **Name**: Aiza
+- **LinkedIn**: linkedin.com/in/aiza-s-400319313
