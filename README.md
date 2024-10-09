@@ -74,7 +74,7 @@ The images used in this project belong to their respective owners. If you recogn
 
 If you have any questions or suggestions, feel free to reach out!
 
-- **Name**: Aiza
+- **Name**: Aiza 👩‍💻
 - **LinkedIn**: https://www.linkedin.com/in/aiza-s-400319313
 
 <p align="right">(<a href="#e-commerce-website-ongoing-project">back to top</a>)</p>
