@@ -1,7 +1,9 @@
-.about-us{
-padding: 5%;
-
-p{
-    margin-top: 2em;
-}
+.about-us {
+  padding: 5%;
+  p {
+    margin-top: 1.2em;
+    font-family: "Hina Mincho", serif;
+    line-height: 1.5em;
+    font-size: 1em;
+  }
 }

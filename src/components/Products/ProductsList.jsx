@@ -3,7 +3,6 @@ import Product from "./Product";
 import hilfiger from "../../assets/tommy.jpg";
 import mode from "../../assets/h.jpg";
 import fashion from "../../assets/fashion.avif";
-import Button from "../button-links/Button";
 import ButtonUp from "../button-links/ButtonUp";
 import AllCategory from "../Category/AllCategory";
 

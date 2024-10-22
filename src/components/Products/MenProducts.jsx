@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
 import Product from "./Product";
-import Button from "../button-links/Button";
 import cart from "../../assets/online.jpg";
 import ButtonsCategoryMen from "../Category/ButtonsCategoryMen";
 import ButtonUp from "../button-links/ButtonUp";

@@ -11,15 +11,19 @@ const ButtonUp = () => {
 
   return (
     <div
+      className="arrow-up"
       onClick={scrollToTop}
       style={{
         position: "fixed",
         bottom: "20px",
         right: "20px",
         cursor: "pointer",
+        background: "grey",
+        borderRadius: "50%",
+        zIndex: "999",
       }}
     >
-      <HiArrowUp size={50} />
+      <HiArrowUp size={40} />
     </div>
   );
 };

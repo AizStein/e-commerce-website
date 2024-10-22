@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../components/button-links/Button";
 import ButtonsCategoryKids from "../components/Category/ButtonsCategoryKids";
 import "./css/kids.css";
 import img1 from "../assets/kid1.avif";
@@ -15,7 +14,6 @@ const Kids = () => {
           <h2>Playful Styles for Little Smiles!</h2>
         </div>
       </section>
-      <Button />
       <div className="button-category">
         <h3>Top Categories</h3>
         <ButtonsCategoryKids />

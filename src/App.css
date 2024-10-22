@@ -103,6 +103,7 @@ main {
 
 .home-card {
   min-width: 10rem;
+  max-width: 20rem;
 }
 
 .button-category {
@@ -161,7 +162,7 @@ main {
 }
 
 .btn-item {
-  background-color: rgb(56, 54, 54);
+  background-color: rgb(71, 70, 70);
   color: white;
   font-size: 12px;
   width: 70px;
@@ -217,6 +218,60 @@ main {
   width: 70px;
   margin: auto;
   padding: 0;
+}
+
+/* swiper */
+
+.swiper-container{
+  background-color: rgba(192, 189, 189, 0.624);
+  padding: 1em 0;
+  margin: 5em 0;
+}
+
+.mySwiper {
+  width: 90%;
+}
+
+.card-container {
+  max-width: 150px;
+  box-shadow: 0px 0px 2px grey;
+  background-color: rgb(236, 232, 232);
+
+  img {
+    object-fit: cover;
+    height: 100px;
+  }
+}
+
+.swiper-card-body {
+  margin-left: 10px;
+}
+
+.card-swiper-title {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.card-swiper-price {
+  font-size: 0.6em;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.btn-swiper {
+  font-size: 0.5em;
+  width: 60px;
+  margin-bottom: 30px;
+  color: black;
+  background-color: rgb(185, 181, 181);
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: rgb(168, 165, 165);
+  }
 }
 
 @media (min-width: 768px) {

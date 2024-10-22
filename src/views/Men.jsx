@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/men.css";
-import Button from "../components/button-links/Button";
 import ButtonsCategoryMen from "../components/Category/ButtonsCategoryMen";
 import img1 from "../assets/men1.avif";
 import img3 from "../assets/men3.webp";
@@ -15,7 +14,6 @@ const Men = () => {
           <h2>Discover Fashion That Celebrates You! </h2>
         </div>
       </section>
-      <Button />
       <div className="button-category">
         <h3>Top Categories</h3>
         <ButtonsCategoryMen />

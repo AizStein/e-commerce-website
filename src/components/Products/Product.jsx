@@ -11,10 +11,11 @@ const Product = () => {
 
   useEffect(() => {
     if (data) {
+      localStorage.setItem("products", JSON.stringify(data));
       dispatch({ type: "SET_PRODUCTS", payload: data });
       dispatch({ type: "FILTER_PRODUCTS", payload: data });
     }
-  }, [data]);
+  }, [data, dispatch]);
 
   return (
     <>

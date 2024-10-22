@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import "./Footer.css";
+import { HiMinusSm, HiPlusSm } from "react-icons/hi";
 
 const Footer = () => {
+  const [openSections, setOpenSections] = useState({
+    shippingReturns: false,
+    termsConditions: false,
+    privacyPolicy: false,
+  });
+
+  const toggleMenu = (section) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [section]: !prev[section],
+    }));
+  };
+
+  //form
   const subscription = (e) => {
     e.preventDefault();
   };
@@ -17,16 +32,61 @@ const Footer = () => {
       </div>
 
       <div className="links">
-        <h4>Customer Service</h4>
-        <ul>
-          <li>
-            <a href="/shipping">Shipping & Returns</a>
+        <ul className="footer-lists">
+          <h6>Customer Service</h6>
+          <li className="footer-menu">
+            <div className="header">
+              <p>Shipping & Returns</p>
+              <span onClick={() => toggleMenu("shippingReturns")}>
+                {openSections.shippingReturns ? (
+                  <HiMinusSm size={28} />
+                ) : (
+                  <HiPlusSm size={28} />
+                )}
+              </span>
+            </div>
+            {openSections.shippingReturns && (
+              <p className="shipping-message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                provident.
+              </p>
+            )}
           </li>
-          <li>
-            <a href="/terms">Terms & Conditions</a>
+          <li className="footer-menu">
+            <div className="header">
+              <p>Terms & Conditions</p>
+              <span onClick={() => toggleMenu("termsConditions")}>
+                {openSections.termsConditions ? (
+                  <HiMinusSm size={28} />
+                ) : (
+                  <HiPlusSm size={28} />
+                )}
+              </span>
+            </div>
+            {openSections.termsConditions && (
+              <p className="shipping-message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                provident.
+              </p>
+            )}
           </li>
-          <li>
-            <a href="/privacy">Privacy Policy</a>
+          <li className="footer-menu">
+            <div className="header">
+              <p>Privacy Policy</p>
+              <span onClick={() => toggleMenu("privacyPolicy")}>
+                {openSections.privacyPolicy ? (
+                  <HiMinusSm size={28} />
+                ) : (
+                  <HiPlusSm size={28} />
+                )}
+              </span>
+            </div>
+            {openSections.privacyPolicy && (
+              <p className="shipping-message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                provident.
+              </p>
+            )}
           </li>
         </ul>
         <div className="footer-newsletter">

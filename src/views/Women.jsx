@@ -1,6 +1,5 @@
 import "./css/women.css";
 import ButtonCategoryWomen from "../components/Category/ButtonCategoryWomen";
-import Button from "../components/button-links/Button";
 import img1 from "../assets/women1.jpg";
 import img2 from "../assets/woman2.avif";
 import img3 from "../assets/women3.jpg";
@@ -14,7 +13,6 @@ const Women = () => {
           <h2>Empower Your Style: Chic, Confident, You</h2>
         </div>
       </section>
-      <Button />
       <div className="button-category">
         <h3>Top Categories</h3>
         <ButtonCategoryWomen />

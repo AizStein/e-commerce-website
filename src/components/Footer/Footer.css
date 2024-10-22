@@ -1,6 +1,6 @@
 footer {
   background-color: rgb(61, 59, 59);
-  color: white;
+  color: rgb(236, 235, 235);
 }
 
 .p-footer {
@@ -19,29 +19,78 @@ footer {
 
 .social-icons {
   margin: 10px;
-  font-size: 2em;
-}
-
-.links {
-  padding: 1em;
-
-  h4 {
-    font-size: 1em;
-  }
-
-  li {
-    list-style: none;
-  }
+  font-size: 1.2em;
 }
 
 .footer-newsletter {
-  margin-bottom: 3em;
+  margin: 10px 10px 50px 10px;
 
   h4 {
-    padding-top: 1em;
+    padding-top: 2em;
+    font-size: 0.9em;
   }
 
   form {
     margin-top: 1em;
+    display: flex;
+
+    button {
+      color: black;
+      background-color: rgb(230, 225, 225);
+      border: none;
+      padding: 2px;
+    }
+  }
+}
+
+.links {
+  margin: 0 10px;
+}
+
+.footer-lists {
+  list-style: none;
+
+  h6 {
+    margin-bottom: 30px;
+  }
+}
+
+.footer-menu {
+  margin-top: 0.5em;
+}
+
+.header {
+  display: flex;
+  cursor: pointer;
+}
+
+.header p {
+  margin: 0;
+  flex-grow: 1;
+  font-size: 0.8em;
+}
+
+.shipping-message {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .links {
+    width: 60%;
+    margin-right: 5em;
+  }
+
+  .footer-newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
