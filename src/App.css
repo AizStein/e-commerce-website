@@ -103,7 +103,6 @@ main {
 
 .home-card {
   min-width: 10rem;
-  max-width: 20rem;
 }
 
 .button-category {
@@ -222,7 +221,7 @@ main {
 
 /* swiper */
 
-.swiper-container{
+.swiper-container {
   background-color: rgba(192, 189, 189, 0.624);
   padding: 1em 0;
   margin: 5em 0;
