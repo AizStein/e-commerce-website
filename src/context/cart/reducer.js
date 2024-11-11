@@ -7,9 +7,11 @@ export default function reducer(state, action) {
       };
 
     case "SET_GENDER":
+      localStorage.setItem("gender", action.payload);
       return { ...state, gender: action.payload };
 
     case "SET_CATEGORY":
+      localStorage.setItem("category", action.payload);
       return { ...state, category: action.payload };
 
     case "FILTER_PRODUCTS":

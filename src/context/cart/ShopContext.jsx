@@ -7,9 +7,9 @@ export default function ShopProvider({ children }) {
   const initialState = {
     products: [],
     filteredProducts: [],
-    gender: "all",
+    gender: localStorage.getItem("gender") || "all",
     cart: JSON.parse(localStorage.getItem("cart")) || [],
-    category: "",
+    category: localStorage.getItem("category") || "",
   };
 
   const [state, dispatch] = useReducer(reducer, initialState);
