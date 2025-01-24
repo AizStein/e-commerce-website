@@ -17,7 +17,9 @@ const Women = () => {
         <h3>Top Categories</h3>
         <ButtonCategoryWomen />
       </div>
-      <h4 className="slogan">Uncomplicate Your Wardrobe, Amplify Your Look.</h4>
+      <h4 className="slogan slogan-women">
+        Uncomplicate Your Wardrobe, Amplify Your Look.
+      </h4>
       <div className="carousel">
         <div
           id="carouselExampleFade"

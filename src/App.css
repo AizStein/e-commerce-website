@@ -197,7 +197,7 @@ main {
 
 .slogan {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   height: 100%;
   justify-content: center;
 }
@@ -209,7 +209,7 @@ main {
   font-family: "Bowlby One", sans-serif;
   font-weight: bolder;
   font-style: normal;
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding: 1em;
 }
 
@@ -295,7 +295,7 @@ main {
 
 @media (min-width: 1024px) {
   main {
-    width: 70%;
+    width: 60%;
   }
   .btn {
     width: 50%;

@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
 }
 
 .nav-links {
@@ -42,6 +41,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 .nav-links li a:hover {
@@ -67,7 +67,12 @@
     display: flex;
     flex-direction: row;
     position: initial;
-    gap: 40px;
+    gap: 3.5rem;
+  }
+
+  ul.nav-links {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .nav-links li {
     margin: 0;

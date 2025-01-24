@@ -20,14 +20,15 @@ const Header = () => {
         <div className="logo-con">
           <h3 className="logo">AizTrend</h3>
         </div>
-        <NavBar />
-        <div></div>
+        <div className="nav-div">
+          <NavBar />
+        </div>
         <div className="icons">
           <div className="user">
             <CiUser size={30} className="user-icon" />
           </div>
           <div className="cartContainer" onClick={cartHandler}>
-            <HiOutlineShoppingBag size={35}  className="icon" />
+            <HiOutlineShoppingBag size={35} className="icon" />
             {totalQuantity > 0 && (
               <span className="total-quantity">{totalQuantity}</span>
             )}

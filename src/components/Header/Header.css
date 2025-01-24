@@ -1,8 +1,5 @@
 header {
-  width: 100%;
-  max-height: 70px;
   background-color: #f1ecec;
-  padding-bottom: 20px;
   border-bottom: 1px solid rgba(63, 60, 60, 0.041);
   box-shadow: 2px 2px 10px rgba(136, 132, 132, 0.26);
   position: sticky;
@@ -13,7 +10,8 @@ header {
 .header-content {
   display: flex;
   justify-content: space-around;
-  padding-top: 1em;
+  align-items: center;
+  padding: 1rem;
 }
 
 .logo {
@@ -38,13 +36,4 @@ header {
 /* Shopping basket styles */
 .shopping-bag {
   cursor: pointer;
-}
-
-@media (min-width: 768px) {
-  .logo-con {
-    margin-left: 20px;
-  }
-  .icons {
-    margin-right: 20px;
-  }
 }
