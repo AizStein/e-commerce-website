@@ -69,8 +69,6 @@ const Home = () => {
                 <p className="card-text">Nike</p>
               </div>
             </div>
-          </div>
-          <div className="container-brand">
             <div className="card home-card">
               <img
                 src={northface}
@@ -92,6 +90,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className="container-brand"></div>
         </div>
       </section>
       <ButtonUp />

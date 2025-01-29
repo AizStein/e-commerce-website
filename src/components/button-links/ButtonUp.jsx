@@ -15,8 +15,9 @@ const ButtonUp = () => {
       onClick={scrollToTop}
       style={{
         position: "fixed",
-        bottom: "20px",
-        right: "20px",
+        bottom: "30px",
+        padding: "5px",
+        right: "30px",
         cursor: "pointer",
         background: "grey",
         borderRadius: "50%",
