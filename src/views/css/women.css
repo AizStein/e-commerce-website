@@ -7,6 +7,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 5px grey;
 }
 
 .women-page h2 {

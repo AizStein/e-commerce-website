@@ -16,8 +16,8 @@ const ProductsSwiper = () => {
     <>
       <div className="swiper-container">
         <Swiper
-          slidesPerView={2}
-          spaceBetween={10}
+          slidesPerView={3}
+          spaceBetween={20}
           freeMode={true}
           pagination={{
             clickable: true,
@@ -25,18 +25,18 @@ const ProductsSwiper = () => {
           breakpoints={{
             // width is >= 640px
             640: {
-              slidesPerView: 3,
-              spaceBetween: 20,
+              slidesPerView: 4,
+              spaceBetween: 10,
             },
             // width is >= 768px
             768: {
               slidesPerView: 4,
-              spaceBetween: 30,
+              spaceBetween: 20,
             },
             // width is >= 1024px
             1024: {
               slidesPerView: 5,
-              spaceBetween: 40,
+              spaceBetween: 30,
             },
           }}
           modules={[FreeMode, Pagination]}

@@ -25,9 +25,9 @@ const Home = () => {
   return (
     <>
       <section className="landing-page">
+        {isVisible && <img src={progress} alt="" className="in-progress" />}
         <div className="btn-wrap">
           <div className="btn">
-            {isVisible && <img src={progress} alt="" className="in-progress" />}
             <h1 className="heading">Elevate Your Look Today!</h1>
             <div className="btn-content">
               <button onClick={() => navHandler("women")}>Women</button>

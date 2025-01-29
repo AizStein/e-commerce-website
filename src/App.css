@@ -15,13 +15,16 @@ main {
 }
 
 .landing-page {
-  background-image: url(./assets/home.jpg);
-  height: 50vh;
+  background-image: url(./assets/shop-bg.jpeg);
+  height: 40vh;
   background-size: cover;
   width: 100%;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 5px grey;
+  position: relative;
 }
 
 .btn-wrap {
@@ -43,24 +46,33 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 1em;
 
   button {
-    background-color: rgba(73, 71, 71, 0.308);
+    background-color: rgba(34, 33, 33, 0.703);
     color: rgb(255, 255, 255);
     border: 2px solid white;
     padding: 5px;
     font-weight: bolder;
     font-size: 1em;
+
+    &:hover {
+      background-color: rgba(63, 62, 62, 0.703);
+      font-size: 1.1em;
+      color: rgb(200, 182, 182);
+    }
   }
 }
 
 .heading {
   color: rgb(255, 255, 255);
-  text-shadow: 4px 4px 10px rgb(0, 0, 0);
+  text-shadow: 5px 5px 15px rgb(0, 0, 0);
   font-family: "Bowlby One", sans-serif;
   font-weight: bolder;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1.7em;
+  white-space: nowrap;
+  margin-bottom: 1.5em;
 }
 
 .items-category h3 {
@@ -85,10 +97,15 @@ main {
 
 .clothing {
   margin: 5%;
+
+  h3 {
+    padding-bottom: 1em;
+  }
 }
 
 .container-brand {
   display: flex;
+  justify-content: center;
   margin-bottom: 1rem;
   gap: 20px;
 }
@@ -103,6 +120,7 @@ main {
 
 .home-card {
   min-width: 10rem;
+  max-width: 28rem;
 }
 
 .button-category {
@@ -215,8 +233,8 @@ main {
 
 .in-progress {
   width: 70px;
-  margin: auto;
-  padding: 0;
+  position: absolute;
+  left: 5px;
 }
 
 /* swiper */
@@ -273,18 +291,12 @@ main {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   main {
     width: 80%;
     margin: auto;
   }
-  .landing-page,
-  .women-page,
-  .men-page,
-  .kids-page {
-    height: 60vh;
-    background-position: 0 10%;
-  }
+
   .heading {
     font-size: 1.8em;
   }
@@ -296,10 +308,15 @@ main {
 @media (min-width: 1024px) {
   main {
     width: 60%;
+    margin: auto;
   }
   .btn {
     width: 50%;
     gap: 6em;
+  }
+
+  .clothing h3 {
+    text-align: center;
   }
 }
 

@@ -19,7 +19,7 @@ footer {
 
 .social-icons {
   margin: 10px;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .footer-newsletter {
@@ -27,7 +27,7 @@ footer {
 
   h4 {
     padding-top: 2em;
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
 
   form {
@@ -52,6 +52,7 @@ footer {
 
   h6 {
     margin-bottom: 30px;
+    font-size: 1.2em;
   }
 }
 
@@ -67,7 +68,7 @@ footer {
 .header p {
   margin: 0;
   flex-grow: 1;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .shipping-message {

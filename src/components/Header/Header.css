@@ -9,7 +9,7 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 1rem;
 }
@@ -36,4 +36,22 @@ header {
 /* Shopping basket styles */
 .shopping-bag {
   cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-content {
+    width: 80%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-content {
+    width: 60%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
