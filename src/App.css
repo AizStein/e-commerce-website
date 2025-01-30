@@ -11,12 +11,12 @@ body {
 }
 
 main {
-  height: 100%;
+  min-height: 100vh;
 }
 
 .landing-page {
-  background-image: url(./assets/shop-bg.jpeg);
-  min-height: 40vh;
+  background-image: url(./assets/fashion.avif);
+  min-height: 50vh;
   background-size: cover;
   width: 100%;
   overflow: hidden;
